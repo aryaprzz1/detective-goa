@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    /* Goa Beach Theme - Warm Coastal Colors */
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+
+    /* Background - Soft sandy cream */
+    --background: 45 100% 97%;
+    --foreground: 200 30% 15%;
+
+    /* Card - Off-white with warm tone */
+    --card: 40 100% 98%;
+    --card-foreground: 200 30% 15%;
+
+    /* Popover */
+    --popover: 40 100% 98%;
+    --popover-foreground: 200 30% 15%;
+
+    /* Primary - Ocean Blue Goa */
+    --primary: 195 100% 42%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Warm Sand */
+    --secondary: 35 100% 65%;
+    --secondary-foreground: 200 30% 15%;
+
+    /* Muted - Light sand/gray */
+    --muted: 40 30% 90%;
+    --muted-foreground: 200 15% 40%;
+
+    /* Accent - Tropical coral/sunset */
+    --accent: 15 100% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Border - Subtle sandy border */
+    --border: 35 40% 90%;
+    --input: 35 40% 90%;
+    --ring: 195 100% 42%;
+
+    /* Chart colors - Tropical palette */
+    --chart-1: 195 100% 42%;
+    --chart-2: 35 100% 65%;
+    --chart-3: 15 100% 55%;
+    --chart-4: 180 80% 50%;
+    --chart-5: 40 90% 70%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar - Beach theme */
+    --sidebar-background: 45 100% 97%;
+    --sidebar-foreground: 200 30% 15%;
+    --sidebar-primary: 195 100% 42%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 35 100% 65%;
+    --sidebar-accent-foreground: 200 30% 15%;
+    --sidebar-border: 35 40% 90%;
+    --sidebar-ring: 195 100% 42%;
+  }
+
+  .dark {
+    /* Dark mode - Tropical night sky */
+    --background: 200 30% 12%;
+    --foreground: 45 100% 95%;
+
+    --card: 200 30% 15%;
+    --card-foreground: 45 100% 95%;
+
+    --popover: 200 30% 15%;
+    --popover-foreground: 45 100% 95%;
+
+    --primary: 195 100% 55%;
+    --primary-foreground: 200 30% 12%;
+
+    --secondary: 35 100% 60%;
+    --secondary-foreground: 200 30% 12%;
+
+    --muted: 200 30% 25%;
+    --muted-foreground: 45 30% 70%;
+
+    --accent: 15 100% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 200 30% 25%;
+    --input: 200 30% 25%;
+    --ring: 195 100% 55%;
+
+    --chart-1: 195 100% 55%;
+    --chart-2: 35 100% 60%;
+    --chart-3: 15 100% 60%;
+    --chart-4: 180 80% 55%;
+    --chart-5: 40 90% 65%;
+
+    --sidebar-background: 200 30% 12%;
+    --sidebar-foreground: 45 100% 95%;
+    --sidebar-primary: 195 100% 55%;
+    --sidebar-primary-foreground: 200 30% 12%;
+    --sidebar-accent: 35 100% 60%;
+    --sidebar-accent-foreground: 200 30% 12%;
+    --sidebar-border: 200 30% 25%;
+    --sidebar-ring: 195 100% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Goa Beach Custom Animations */
+@layer utilities {
+  @keyframes wave {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-wave {
+    animation: wave 2s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
