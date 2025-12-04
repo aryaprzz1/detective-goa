@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3 text-white">
                   <Phone className="h-5 w-5 text-amber-400" />
-                  <span>9619623730</span>
+                  <span>9152695373</span>
                 </div>
                 <div className="flex items-center gap-3 text-white">
                   <Mail className="h-5 w-5 text-amber-400" />
@@ -256,12 +256,12 @@ export default function Home() {
               Contact SeekProof Detective Goa today. Confidential consultation available 24/7.
             </p>
             <div className="flex flex-col gap-3 min-[400px]:flex-row">
-              <Link href="tel:9619623730">
+              <Link href="tel:9152695373">
                 <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100">
-                  Call: 9619623730
+                  Call: 9152695373
                 </Button>
               </Link>
-              <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/919152695373" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-green-500 text-white hover:bg-green-600">
                   WhatsApp
                 </Button>

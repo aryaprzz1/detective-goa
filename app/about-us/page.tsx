@@ -219,7 +219,7 @@ export default function AboutUs() {
                 <p>Altinho, Panaji</p>
                 <p>Goa 403001, India</p>
                 <div className="pt-4 border-t border-gray-200">
-                  <p className="text-sm font-medium text-amber-600">Phone: 9619623730</p>
+                  <p className="text-sm font-medium text-amber-600">Phone: 9152695373</p>
                   <p className="text-sm font-medium text-amber-600">Available 24/7</p>
                 </div>
               </div>
@@ -253,12 +253,12 @@ export default function AboutUs() {
               Contact SeekProof Detective Goa today for a confidential consultation about your investigative needs.
             </p>
             <div className="flex flex-col gap-3 min-[400px]:flex-row">
-              <Link href="tel:9619623730">
+              <Link href="tel:9152695373">
                 <Button size="lg" className="bg-white text-amber-700 hover:bg-gray-100">
-                  Call: 9619623730
+                  Call: 9152695373
                 </Button>
               </Link>
-              <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/919152695373" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-green-500 text-white hover:bg-green-600">
                   WhatsApp Us
                 </Button>

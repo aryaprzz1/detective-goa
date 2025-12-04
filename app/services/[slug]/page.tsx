@@ -575,12 +575,12 @@ export default function ServiceDetail({ params }: { params: { slug: string } }) 
             </div>
             {/* Update the CTA section to include WhatsApp button */}
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link href="tel:9619623730">
+              <Link href="tel:9152695373">
                 <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
-                  Call Pradeep: 9619623730
+                  Call Pradeep: 9152695373
                 </Button>
               </Link>
-              <Link href="https://wa.me/919619623730" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/919152695373" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="secondary" className="bg-green-500 text-white hover:bg-green-600">
                   WhatsApp Us
                 </Button>
