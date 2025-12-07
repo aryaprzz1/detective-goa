@@ -12,7 +12,7 @@ export const metadata = {
   title: "SeekProof Detective Goa - Professional Investigation Services",
   description:
     "SeekProof Detective Goa provides professional investigation services including missing persons, corporate security, background checks, surveillance, and more. Based in Panaji, Goa.",
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export default function RootLayout({
